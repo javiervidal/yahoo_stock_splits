@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/javiervidal/yahoo_stock_splits"
   s.summary     = %q{Retrieve stock splits from Yahoo! Finance}
   s.description =  <<END_OF_DESC
-YahooStockSplits retrieve stock splits from Yahoo! Finance. Split information is not available via CSV download, so this gem scraps the basic chart page of the desired stock.
+YahooStockSplits retrieves stock splits from Yahoo! Finance. Split information is not available via CSV download, so this gem scraps the basic chart page of the desired stock.
 
 It returns an array of arrays that contains the date, post split shares, and pre split shares, in that order.
 

@@ -2,7 +2,7 @@
 
 == Description
 
-YahooStockSplits retrieve stock splits from Yahoo! Finance. Split information is not available via CSV download, so
+YahooStockSplits retrieves stock splits from Yahoo! Finance. Split information is not available via CSV download, so
 this gem scraps the basic chart page of the desired stock.
 
 It returns an array of arrays that contains the date, post split shares, and pre split shares, in that order.
